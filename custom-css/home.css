@@ -1,44 +1,55 @@
-#banner {
-    background-color: #fff;
-    padding: 80px 0;
-    margin-bottom: 20px;
-    margin-top: 75px;
-    box-shadow: 0 0 20px rgba(42, 210, 222, 0.1);
-  }
-  @media (max-width: 376px) {
-    #banner {
-        margin-top: 90px;
-    }
-    
-  }
-  
-  #banner h1 {
-    font-size: 50px;
-    font-weight: 700;
-    margin-bottom: 30px;
-    margin-top: -65px;
-  }
-  
-  #banner p {
-    font-size: 24px;
-    margin-bottom: 40px;
-  }
-  #banner .btn {
-    border-radius: 50px;
-    margin-bottom: 10px;
-  }
+.landing-page {
+  margin-top: 90px;
+  background-color: #10c6aa;
+  padding: 30px;
+  color: #fff;
+}
 
-  #banner .btn:hover {
-    border-radius: 50px;
-    margin-top: 10px;
-    background-color: #04a0a5;
-  }
-  
-  #banner img {
-    width: 100%;
-    margin-top: 20px;
-    height: 350px;
-  }
+.landing-page .container {
+  background-color: #10b7c6;
+  padding: 20px;
+  border-radius: 13px;
+}
+
+ .landing-page h2 {
+  font-size: 54px;
+  text-align: center;
+  padding: 10px;
+ }
+
+ .landing-page .online {
+  Color: #f0f024;
+  font-weight: bold;
+ }
+ .landing-page p{
+  text-align: center;
+  font-size: 24px;
+ }
+
+ .landing-page .btn{
+  background-color: #d49306;
+  color: #fff;
+  margin-top: 20px;
+  border: 3px solid #d49306;
+  font-size: 24px;
+  font-weight: bold;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 40px;
+ }
+
+ .landing-page .btn:hover{
+  border: 3px solid #d49306;
+  color: #ffffff;
+  margin-top: 20px;
+ }
+
+ .landing-page img{
+  height: 100%;
+  border-left: 3px solid #fff;
+  border-radius: 10px;
+ }
+
 
   
   /* when data is read from the database using the PHP */
@@ -106,6 +117,7 @@
     background-color: #0062cc;
     border-color: #005cbf;
   }
+  
   .card-body {
     margin-bottom: 1rem;
     border-radius: 0.5rem;

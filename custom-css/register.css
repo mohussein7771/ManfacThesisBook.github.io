@@ -1,40 +1,28 @@
 .container {
-  margin: 100px;
-  width: 100%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-#step-1-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  max-width: 600px;
+  margin: 30px auto;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  max-width: 800px; /* adjust to your desired width */
-  margin: 50px auto; /* adjust top and bottom margin as needed */
+  box-shadow: 0px 0px 15px rgba(112, 4, 4, 0.2);
+  margin-top: 90px;
 }
 
-#step-2-form {
+h1 {
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+  box-shadow: 0px 0px 13px rgba(11, 2, 2, 0.3);
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  max-width: 800px; /* adjust to your desired width */
-  margin: 50px auto; /* adjust top and bottom margin as needed */
 }
 
-
-form input[type="text"],
-form input[type="email"],
-select, .btn {
+form .btn {
+  color: #fff;
+  font-weight: bold;
   width: 100%;
+  background-color: #0841d0;
 }
 
-.col-md-6 .form-select {
-  width: 100%;
+form .btn:hover {
+  color: #fff;
+  background-color: #04a0a5;
 }
-form select{
-  width: 100px;
-}
-
-
